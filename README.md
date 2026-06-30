@@ -5,6 +5,7 @@ Werba, G., Weissinger, D., Kawaler, E.A. et al. Single-cell RNA sequencing revea
 
 ## Required Tools
 - SRA-Toolkit
+- CellRanger
 
 ## License
 
