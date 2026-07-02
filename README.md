@@ -3,9 +3,10 @@ Demonstrate analysis of scRNAseq data, such as from 10X Genomics, from raw data 
 
 Werba, G., Weissinger, D., Kawaler, E.A. et al. Single-cell RNA sequencing reveals the effects of chemotherapy on human pancreatic adenocarcinoma and its tumor microenvironment. Nat Commun 14, 797 (2023). https://doi.org/10.1038/s41467-023-36296-4
 
-## Required Tools
-- SRA-Toolkit
-- CellRanger
+## Tools
+- SRA-Toolkit: 3.4.1
+- CellRanger: 
+- Bash: 3.2.57
 
 ## License
 
