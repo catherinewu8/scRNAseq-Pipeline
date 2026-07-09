@@ -6,6 +6,7 @@ Werba, G., Weissinger, D., Kawaler, E.A. et al. Single-cell RNA sequencing revea
 ## Tools
 - SRA-Toolkit: 3.4.1
 - FastQC: 0.12.1
+- MultiQC: 1.34
 - CellRanger: 10.1.0
 - Bash: 3.2.57
 
