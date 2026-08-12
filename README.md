@@ -1,6 +1,10 @@
 # scRNAseq-Pipeline
-Demonstrate analysis of scRNAseq data, such as from 10X Genomics, from fetching data to raw data processing to finding unique information between cell types to lead to biologically relevant insights. Here I will show an example pipeline with scRNAseq data from the tumor microenvironment of human pancreatic adenocarcinoma (Werba et. al., 2023). All data available on GEO under GSE205013.
+Demonstrate analysis of scRNAseq data, such as from 10X Genomics, from fetching data to raw data processing to finding unique information between cell types to lead to biologically relevant insights. Here I will show an example pipeline with scRNAseq data from the tumor microenvironment of human pancreatic adenocarcinoma (Werba et. al., 2023). 
 
+### Data Availability
+All data available on GEO under GSE205013.
+
+### References
 Werba, G., Weissinger, D., Kawaler, E.A. et al. Single-cell RNA sequencing reveals the effects of chemotherapy on human pancreatic adenocarcinoma and its tumor microenvironment. Nat Commun 14, 797 (2023). https://doi.org/10.1038/s41467-023-36296-4
 
 ## Tools
