@@ -12,6 +12,7 @@ Werba, G., Weissinger, D., Kawaler, E.A. et al. Single-cell RNA sequencing revea
 - FastQC: 0.12.1
 - MultiQC: 1.34
 - CellRanger: 10.1.0
+- Linux system required for CellRanger
 - Bash: 3.2.57
 - R: 4.5.2
 
