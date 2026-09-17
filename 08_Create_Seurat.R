@@ -31,3 +31,12 @@ for (d in sample_dirs) {
   }
 }
 
+###############################
+###---Data Pre-Processing---###
+###############################
+
+# Make a function for Seurat QC where minFeat is the minimum number of features,
+# maxFeat is the maximum number of features, and mtPct is the maximum mitochondrial counts
+
+
+
