@@ -10,6 +10,8 @@ dirs <- list.dirs(
   full.names = FALSE
 )
 
+# For GSE with raw data per sample, otherwise use provided Seurat object
+
 ##################################
 ###--- Build Seurat Objects ---###
 ##################################
