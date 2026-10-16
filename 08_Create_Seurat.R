@@ -37,6 +37,25 @@ for (d in sample_dirs) {
 
 # For h5 file output
 
+samples <- list.files(
+  pattern = paste0(".h5$"), 
+  full.names = TRUE
+)
+
+for (s in samples){
+  
+  # Read counts
+  counts <- Read10X_h5(filename = s)
+  
+  # Create sample name
+  sample_name <- sub(".*(GSM[0-9]+).*", "\\1", basename(s))
+  
+  # Create Seurat object
+  seurat_list[[sample_name]] <- CreateSeuratObject(
+    counts = counts,
+    project = sample_name
+  )
+}
 
 
 ###############################
