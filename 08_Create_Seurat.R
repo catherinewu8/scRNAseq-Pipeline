@@ -204,13 +204,12 @@ DimPlot(
   label = TRUE
 )
 
-
-
 #--- Join Layers ---#
 
 combined <- JoinLayers(combined, assay = "RNA")
 
 #--- Save Seurat Object ---#
+
 saveRDS <- saveRDS(
   combined, 
   file = paste0(gse,"_combined.rds")
