@@ -21,3 +21,10 @@ FeaturePlot(
   object = obj, 
   features = "CD45" # Enter a list of markers of interest to be projected onto the UMAP
 )
+
+DimPlot(
+  object = obj, 
+  reduction = "umap", 
+  group.by = res, 
+  label = TRUE
+)
