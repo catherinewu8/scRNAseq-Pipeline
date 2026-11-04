@@ -28,3 +28,5 @@ DimPlot(
   group.by = res, 
   label = TRUE
 )
+
+# Repeat with different resolutions if desired
