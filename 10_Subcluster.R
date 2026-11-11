@@ -16,3 +16,5 @@ obj_subset <- subset(
   obj, 
   idents = c() # List clusters of interest
 )
+
+#--- Process Subclustered object ---#
